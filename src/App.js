@@ -63,7 +63,7 @@ function App() {
 
   if (movies.length > 0) {
     content = <MoviesList movies={movies} />
-  }
+  } //only renders movie list if movies have inputted
 
   if (error) {
     content = <p>{error}</p>
